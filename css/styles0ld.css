@@ -1,0 +1,155 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button,
+a {
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* mobile */
+
+.container {
+    width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;  
+}
+.logo-studio-page {
+    color: #2E2F42;
+}
+.header-page {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    min-width: 320px;
+}
+.header-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+/* main */
+.main-section {
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding: 72px 0;
+   background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/dark-bg.mobile.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-width: 320px;
+}
+.section-page-item {
+    color: var(--WHITE, #FFF);
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+width: 180px;
+margin: 0 auto 48px auto;
+}
+.button-item {
+    color: var(--WHITE, #FFF);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500; 
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+min-width: 169px;
+height: 56px;
+display: block;
+margin: 0 auto 0 auto;
+min-width: 169px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .button-item:hover,
+    .button-item:focus {
+        background-color: #404BBF
+    }
+    .text {
+        color: #2E2F42;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        margin-bottom: 72px;
+    }
+    .second-text {
+        line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    .third-text {
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+    /* benefits */
+    .benefits {
+        display: none;
+    }
+    
+
+
+
+
+        
+    
+
+
+    

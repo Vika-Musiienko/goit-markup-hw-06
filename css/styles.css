@@ -30,9 +30,9 @@ img {
 }
 /* mobile header */
 .container {
-  
+  width: 320px;
    padding: 0 16px;
-
+margin: 0 auto;
     
 }
 
@@ -106,9 +106,8 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 min-width: 320px;
+
 }
-
-
 
 @media screen and (max-width: 767px) {
 
@@ -374,9 +373,10 @@ letter-spacing: 0.32px;
     border-radius: 0px 0px 4px 4px;
     
 }
+.our-team-list-item {
+    width: 264px;
+}
 .team-list {
-   
-
 display: flex;
 justify-content: center;
 gap: 24px;
@@ -1171,7 +1171,7 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
             width: 496px;
  }
  .studio {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
  }
  
  .benefits-list {
@@ -1271,6 +1271,9 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
         .logo {
             margin-right: 76px;
         }
+        .studio {
+            padding-bottom: 40px;
+        }
 
 
 
@@ -1322,8 +1325,10 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
                     url('../images/people-office1@2x.jpg');
             }
         }
-
-        .section-page-item {
+        .studio {
+            padding-bottom: 20px;
+        }
+ .section-page-item {
             margin-bottom: 48px;
         }
         .benefits {
@@ -1441,9 +1446,3 @@ width: 264px;
 
      
     }
-
-        
-    
-
-
-    
