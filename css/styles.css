@@ -35,7 +35,7 @@ img {
 .container {
   width: 320px;
    padding: 0 16px;
-margin: 0 auto;
+margin: 0;
     
 }
 
@@ -428,6 +428,7 @@ color: #2E2F42;
     align-items: center;
     column-gap: 24px;
     row-gap: 48px;
+    padding-bottom: 96px;
 }
 .portfolio-title {
     border: 1px solid #E7E9FC;
