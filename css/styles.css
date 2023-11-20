@@ -877,7 +877,7 @@ margin-right: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 72px 16px 40px 16px;
+    padding: 24px 16px 40px 16px;
     width: 320px;
     height: 640px;
     margin-left: auto;
@@ -920,6 +920,7 @@ width: 24px;
     gap: 40px;
     flex-direction: column;
     margin-bottom: 168px;
+    
 }
 .link {
     color: var(--OCEAN, #404BBF);
@@ -930,6 +931,7 @@ font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
+text-decoration: none;
 }
 .link-portfolio {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -949,6 +951,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
+text-decoration: none;
 }
 .burger-contacts-link {
     color: var(--SLATE, #434455);
@@ -958,15 +961,15 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
+text-decoration: none;
+}
+.link-portfolio {
+    text-decoration: none;
 }
 
-.social-item {
+.team-socials-link {
     width: 40px;
     height: 40px;
-}
-.team-socials-link {
-    width: 100%;
-    height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
@@ -998,7 +1001,7 @@ flex-shrink: 0;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
+   
 }
 
 .burger-contacts-item {
@@ -1011,7 +1014,8 @@ flex-shrink: 0;
 
 .burger-social-list {
     display: flex;
-
+justify-content: center;
+align-items: center;
     gap: 40px;
     max-width: 280px;
 }
