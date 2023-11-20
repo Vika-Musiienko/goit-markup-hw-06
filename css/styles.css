@@ -28,6 +28,9 @@ img {
     padding-top: 96px;
     padding-bottom: 96px;
 }
+.container {
+    overflow-x: hidden;
+}
 /* mobile header */
 .container {
   width: 320px;
