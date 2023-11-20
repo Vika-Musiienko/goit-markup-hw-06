@@ -35,7 +35,8 @@ img {
 .container {
   width: 320px;
    padding: 0 16px;
-margin: 0;
+margin-left: 0;
+margin-right: 0;
     
 }
 
