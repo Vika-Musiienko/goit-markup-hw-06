@@ -366,6 +366,7 @@ letter-spacing: 0.32px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 96px;
 }
 
 .our-team-list-name {
@@ -1228,16 +1229,20 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 /* FOOTER  */
 
 .social {
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    
 }
+.footer-list {
+padding-left: 0;
+width: 208px;
+}
+
 .footer-container {
     gap: 72px 24px;
     width: 768px;
     padding-left: 108px;
-}
-
-.social-text {
-    align-items: center;
 }
 
 
@@ -1247,9 +1252,14 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .social-text {
     text-align: left;
+    width: 96px;
+    justify-content: left;
 }
 .form-subscribe {
     gap: 24px;
+}
+.input-form-subscribe {
+    width: 264px;
 }
 .paragraph-text {
     text-align: left;
@@ -1378,6 +1388,7 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 flex-direction: row;
 margin-bottom: 8px;
 width: 264px;
+
         }
     
         .benefits-list-p {
@@ -1413,7 +1424,7 @@ width: 264px;
 
         
         .footer-page {
-            background: var(--NAVY-BLUE, #2E2F42);
+            
             height: 312px;
             flex-shrink: 0;
             padding: 100px 0 100px;
